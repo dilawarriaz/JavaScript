@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: arial;
+}
+div#wrapper{
+    margin: 25px auto 0px auto;
+    width: 35%;
+}
+div#wrapper h1{
+    display: block;
+    background-color: #203d3a;
+    color: #fff;
+    text-align: center;
+    line-height: 75px;
+    border-radius: 20px 20px 0px 0px;
+}
+div#wrapper img{
+    width: 100%;
+    border-radius: 0px 0px 20px 20px;
+    cursor: pointer;
+    filter: grayscale(100%);
+}
+div#block1, div#block1{
+    width: 100%;
+    line-height: 50px;
+    margin-top: 25px;
+}
+
